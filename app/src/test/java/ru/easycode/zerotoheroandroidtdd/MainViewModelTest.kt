@@ -43,6 +43,7 @@ class MainViewModelTest {
     }
 }
 
+
 private interface FakeLiveDataWrapper : LiveDataWrapper {
 
     fun checkUpdateCalls(expected: List<UiState>)
